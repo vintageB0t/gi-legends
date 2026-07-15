@@ -35,7 +35,7 @@ export const hero = {
 };
 
 export const credenciais = [
-  { valor: "5 edições", label: "realizadas  desde 2021" },
+  { valor: "5 edições", label: "realizadas desde 2021" },
   { valor: "+6.000", label: "médicos já participaram" },
   { valor: "+1.400", label: "inscritos por edição" },
   { valor: "6 palestrantes", label: "de referência mundial" },
@@ -47,7 +47,7 @@ export const oCongresso = {
   titleHighlight: "debates aprofundados",
   titlePost: " logo em seguida.",
   paragraph:
-    "Cada encontro tem 45 minutos de aula com o palestrante internacional, seguidos de 30 minutos de discussão com os debatedor brasileiros.",
+    "Cada encontro tem 45 minutos de aula com o palestrante internacional, seguidos de 30 minutos de discussão com os debatedores brasileiros.",
   cards: [
     {
       titulo: "Autoridades mundiais",
@@ -232,8 +232,8 @@ export const faq = {
   itens: [
     { pergunta: "O evento é gratuito?", resposta: "Sim! 100% gratuito!" },
     { pergunta: "Preciso assistir ao vivo?", resposta: "Não! As aulas ficam gravadas no nosso canal do YouTube." },
-    { pergunta: "Como recebo o certificado?", resposta: "Os inscritos através da plataforma Even3 receberão o certificado por email ao final do evento." },
-    { pergunta: "Como funciona a indicação para o grupo VIP?", resposta: "{{RESPOSTA}}" },
+    { pergunta: "Como recebo o certificado?", resposta: "Os inscritos através da plataforma Even3 receberão o certificado por e-mail ao final do evento." },
+    { pergunta: "Como funciona a indicação para o grupo VIP?", resposta: "Os participantes que você indicar poderão nos informar quem os indicou através do formulário de inscrição; assim que as indicações forem confirmadas, você receberá o link de acesso ao grupo." },
   ],
 };
 
