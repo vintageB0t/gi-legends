@@ -12,8 +12,7 @@ export const site = {
   facebook: "https://facebook.com/medicodofigado",
   youtube: "https://www.youtube.com/@Dr.Jo%C3%A3oEduardoNicoluzzi",
   handle: "@medicodofigado",
-  // TODO: trocar pela URL real da página de inscrição no Even3.
-  even3Url: "https://www.even3.com.br/gi-legends-2026",
+  even3Url: "https://www.even3.com.br/gi-legends-2026-760147/",
 };
 
 export const nav = [
