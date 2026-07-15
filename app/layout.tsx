@@ -23,11 +23,11 @@ const instrument = localFont({
 export const metadata: Metadata = {
   title: "Congresso Onco GI Legends 2026 · 15/09 a 27/10",
   description:
-    "Seis aulas semanais online de oncologia digestiva com as maiores autoridades mundiais e debatedores brasileiros. Terças, 19h, via Zoom e YouTube @medicodofigado.",
+    "Seis aulas semanais online de oncologia digestiva com as maiores autoridades mundiais e debatedores brasileiros. Via Zoom e YouTube @medicodofigado.",
   openGraph: {
     title: "Congresso Onco GI Legends 2026",
     description:
-      "Seis aulas semanais online de oncologia digestiva. Terças, 19h, de 15 de setembro a 27 de outubro de 2026.",
+      "Seis aulas semanais online de oncologia digestiva, de 15 de setembro a 27 de outubro de 2026.",
     locale: "pt_BR",
     type: "website",
   },

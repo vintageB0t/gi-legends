@@ -21,7 +21,7 @@ export function StickyCta() {
     >
       <div className="flex items-center justify-center gap-4 bg-teal px-4 py-2.5 text-petroleo">
         <span className="font-sans text-sm font-semibold">
-          {site.periodoCurto} · Terças, 19h
+          {site.periodoCurto} · Seis aulas ao vivo
         </span>
         <a
           href={site.even3Url}

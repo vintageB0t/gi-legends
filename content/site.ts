@@ -7,7 +7,7 @@ export const site = {
   nome: "Congresso Onco GI Legends 2026",
   periodo: "15 de setembro a 27 de outubro de 2026",
   periodoCurto: "15/09 a 27/10",
-  horario: "Terças-feiras, das 19h às 20h15",
+  horario: "Dia e horário variam conforme o fuso de cada palestrante",
   instagram: "https://instagram.com/medicodofigado",
   facebook: "https://facebook.com/medicodofigado",
   youtube: "https://www.youtube.com/@Dr.Jo%C3%A3oEduardoNicoluzzi",
@@ -28,7 +28,7 @@ export const hero = {
   titleHighlight: "autoridades mundiais",
   titlePost: " em oncologia digestiva, em seis encontros",
   paragraph:
-    "Seis aulas semanais ao vivo, sempre às terças, das 19h às 20h15. Palestrantes internacionais discutindo caso a caso com debatedores brasileiros. Transmissão via Zoom e YouTube.",
+    "Seis aulas semanais ao vivo, com dia e horário ajustados ao fuso de cada palestrante. Palestrantes internacionais discutindo caso a caso com debatedores brasileiros. Transmissão via Zoom e YouTube.",
   ctaPrimary: "Garantir minha vaga",
   microcopy: "Participação gratuita · Vagas limitadas · Certificado com carga horária",
   fotoAlt: "Dr. João Eduardo Nicoluzzi, organizador do Congresso Onco GI Legends 2026",
@@ -85,8 +85,8 @@ export const sessoes: Sessao[] = [
     id: "01",
     organ: "Esôfago",
     speaker: "Prof. Philippe Nafteux",
-    institution: "University Hospital Leuven",
-    city: "Bélgica",
+    institution: "USP",
+    city: "São Paulo, Brasil",
     dateLabel: "15/09/2026",
     start: "2026-09-15T19:00:00",
     end: "2026-09-15T20:15:00",
@@ -97,7 +97,7 @@ export const sessoes: Sessao[] = [
   },
   {
     id: "02",
-    organ: "Estômago + Perioperatório",
+    organ: "Estômago",
     speaker: "Prof. Souya Nunobe",
     institution: "Cancer Institute Hospital",
     city: "Tóquio, Japão",
@@ -169,17 +169,17 @@ export const sessoes: Sessao[] = [
 
 export const programacao = {
   eyebrow: "PROGRAMAÇÃO",
-  titlePre: "Seis terças, ",
+  titlePre: "Seis encontros, ",
   titleHighlight: "seis autoridades",
   titlePost: ".",
   paragraph:
-    "Todas as sessões às 19h, com término às 20h15. Cada semana traz uma área do trato digestivo e o nome de referência mundial no tema.",
+    "Cada sessão dura 1h15, com dia e horário ajustados ao fuso de cada palestrante. Cada semana traz uma área do trato digestivo e o nome de referência mundial no tema.",
 };
 
 export const instituicoes = {
   label: "PALESTRANTES VINDOS DE",
   nomes: [
-    "University Hospital Leuven",
+    "USP",
     "Cancer Institute Hospital, Tóquio",
     "Hôpital Paul Brousse, Paris",
     "Hospital Curry Cabral, Lisboa",
