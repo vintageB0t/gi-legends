@@ -10,8 +10,6 @@ export function SessionCard({ s }: { s: Sessao }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const initial = s.speaker.replace(/^Prof\.?\s*/, "").charAt(0);
   const revealed = new Date() >= new Date(s.revealDate);
-  const [hh, mm] = s.start.split("T")[1].split(":");
-  const horaLabel = mm === "00" ? `${hh}h` : `${hh}h${mm}`;
 
   return (
     <article className="group rounded-2xl bg-white shadow-sm ring-1 ring-petroleo/10 transition-shadow hover:shadow-lg">
@@ -51,7 +49,7 @@ export function SessionCard({ s }: { s: Sessao }) {
             A ser revelado dia {s.revealDateLabel}
           </h3>
         )}
-        <p className="mt-3 font-sans text-sm font-semibold text-petroleo">{s.dateLabel} · {horaLabel}</p>
+        <p className="mt-3 font-sans text-sm font-semibold text-petroleo">{s.dateLabel}</p>
 
         <div className="relative mt-4">
           <button
