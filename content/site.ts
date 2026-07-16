@@ -190,10 +190,8 @@ export const instituicoes = {
 
 export const apoiadores = {
   label: "COM APOIO DE",
-  nomes: [
-    { nome: "IGL", logo: "/apoiadores/igl.png" },
-    { nome: "AstraZeneca", logo: "/apoiadores/astrazeneca.png" },
-  ],
+  logo: "/apoiadores/apoiadores.png",
+  logoAlt: "Unicaron, IGL e AstraZeneca",
 };
 
 export const paraQuemE = {
