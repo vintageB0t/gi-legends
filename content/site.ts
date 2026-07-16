@@ -218,11 +218,11 @@ export const organizador = {
 
 export const vip = {
   eyebrow: "GRUPO VIP",
-  titlePre: "Indique três colegas e entre no ",
+  titlePre: "Indique um colega e entre no ",
   titleHighlight: "grupo VIP",
   titlePost: "",
   paragraph:
-    "Quem indica três colegas inscritos entra no grupo VIP, com acesso aos materiais de estudo em PDF, networking entre os participantes e um selo diferenciado no certificado.",
+    "Quem indica um colega inscrito entra no grupo VIP, com acesso aos materiais de estudo em PDF, networking entre os participantes e um selo diferenciado no certificado.",
   cta: "Quero participar",
 };
 
