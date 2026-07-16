@@ -5,6 +5,7 @@ import { CredentialBar } from "@/components/sections/CredentialBar";
 import { OCongresso } from "@/components/sections/OCongresso";
 import { Programacao } from "@/components/sections/Programacao";
 import { Instituicoes } from "@/components/sections/Instituicoes";
+import { Apoiadores } from "@/components/sections/Apoiadores";
 import { ParaQuem } from "@/components/sections/ParaQuem";
 import { Organizador } from "@/components/sections/Organizador";
 import { Vip } from "@/components/sections/Vip";
@@ -23,13 +24,14 @@ export default function Home() {
         <CredentialBar />
         <OCongresso />
         <Programacao />
+        <Vip />
         <Instituicoes />
         <ParaQuem />
         <Organizador />
-        <Vip />
         <Certificado />
         <Faq />
         <Inscricao />
+        <Apoiadores />
       </main>
       <Footer />
     </>

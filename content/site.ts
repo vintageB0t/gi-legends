@@ -179,12 +179,20 @@ export const programacao = {
 export const instituicoes = {
   label: "PALESTRANTES VINDOS DE",
   nomes: [
-    "USP",
-    "Cancer Institute Hospital, Tóquio",
-    "Hôpital Paul Brousse, Paris",
-    "Hospital Curry Cabral, Lisboa",
-    "Universität Heidelberg",
-    "Hôpital Saint-Antoine, Paris",
+    { nome: "USP", logo: "/logos/usp.svg" },
+    { nome: "Cancer Institute Hospital, Tóquio", logo: "/logos/jfcr.png" },
+    { nome: "Hôpital Paul Brousse, Paris", logo: "/logos/aphp.svg" },
+    { nome: "Hospital Curry Cabral, Lisboa", logo: "/logos/chulc.png" },
+    { nome: "Universität Heidelberg", logo: "/logos/heidelberg.svg" },
+    { nome: "Hôpital Saint-Antoine, Paris", logo: "/logos/aphp.svg" },
+  ],
+};
+
+export const apoiadores = {
+  label: "COM APOIO DE",
+  nomes: [
+    { nome: "IGL", logo: "/apoiadores/igl.png" },
+    { nome: "AstraZeneca", logo: "/apoiadores/astrazeneca.png" },
   ],
 };
 
