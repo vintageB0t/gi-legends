@@ -92,7 +92,7 @@ export const sessoes: Sessao[] = [
     end: "2026-09-15T16:15:00",
     photo: "/palestrantes/01-voron.jpg",
     slug: "voron",
-    revealDate: "2026-07-21T19:00:00",
+    revealDate: "2026-07-21T19:00:00-03:00",
     revealDateLabel: "21/07",
   },
   {
@@ -106,7 +106,7 @@ export const sessoes: Sessao[] = [
     end: "2026-09-22T20:15:00",
     photo: "/palestrantes/02-nunobe.jpg",
     slug: "nunobe",
-    revealDate: "2026-07-22T19:00:00",
+    revealDate: "2026-07-22T19:00:00-03:00",
     revealDateLabel: "22/07",
   },
   {
@@ -120,7 +120,7 @@ export const sessoes: Sessao[] = [
     end: "2026-09-29T20:15:00",
     photo: "/palestrantes/03-herman.jpg",
     slug: "herman",
-    revealDate: "2026-07-24T19:00:00",
+    revealDate: "2026-07-24T19:00:00-03:00",
     revealDateLabel: "24/07",
   },
   {
@@ -134,7 +134,7 @@ export const sessoes: Sessao[] = [
     end: "2026-10-06T17:15:00",
     photo: "/palestrantes/04-pinto-marques.jpg",
     slug: "pinto-marques",
-    revealDate: "2026-07-27T19:00:00",
+    revealDate: "2026-07-27T19:00:00-03:00",
     revealDateLabel: "27/07",
   },
   {
@@ -148,7 +148,7 @@ export const sessoes: Sessao[] = [
     end: "2026-10-20T16:15:00",
     photo: "/palestrantes/05-buchler.jpg",
     slug: "buchler",
-    revealDate: "2026-07-29T19:00:00",
+    revealDate: "2026-07-29T19:00:00-03:00",
     revealDateLabel: "29/07",
   },
   {
@@ -162,7 +162,7 @@ export const sessoes: Sessao[] = [
     end: "2026-10-27T16:15:00",
     photo: "/palestrantes/06-parc.jpg",
     slug: "parc",
-    revealDate: "2026-07-31T19:00:00",
+    revealDate: "2026-07-31T19:00:00-03:00",
     revealDateLabel: "31/07",
   },
 ];
