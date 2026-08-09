@@ -78,6 +78,7 @@ export type Sessao = {
   slug: string;
   revealDate: string; // horário local (America/Sao_Paulo) em que o palestrante é revelado, sempre às 19h
   revealDateLabel: string;
+  debatedores?: string[]; // debatedores brasileiros da sessão (revelados junto com o palestrante)
 };
 
 export const sessoes: Sessao[] = [
@@ -94,6 +95,7 @@ export const sessoes: Sessao[] = [
     slug: "voron",
     revealDate: "2026-07-21T19:00:00-03:00",
     revealDateLabel: "21/07",
+    debatedores: [], // a ser anunciado
   },
   {
     id: "02",
@@ -108,6 +110,7 @@ export const sessoes: Sessao[] = [
     slug: "nunobe",
     revealDate: "2026-07-22T19:00:00-03:00",
     revealDateLabel: "22/07",
+    debatedores: ["Dr. André Scartezini", "Dra. Natália Crivellaro", "Dr. Mario Meyer"],
   },
   {
     id: "03",
@@ -122,6 +125,7 @@ export const sessoes: Sessao[] = [
     slug: "herman",
     revealDate: "2026-07-24T19:00:00-03:00",
     revealDateLabel: "24/07",
+    debatedores: ["Dr. Paulo Amaral", "Dr. Matheus Lenci", "Dr. Juliano Moreira"],
   },
   {
     id: "04",
@@ -136,6 +140,7 @@ export const sessoes: Sessao[] = [
     slug: "pinto-marques",
     revealDate: "2026-07-27T19:00:00-03:00",
     revealDateLabel: "27/07",
+    debatedores: ["Dra. Rayssa Sena", "Dr. Adriano Sampaio", "Dr. Milton Bittencourt", "Dr. Everton Germano Melo"],
   },
   {
     id: "05",
@@ -150,6 +155,7 @@ export const sessoes: Sessao[] = [
     slug: "buchler",
     revealDate: "2026-07-29T19:00:00-03:00",
     revealDateLabel: "29/07",
+    debatedores: ["Dr. Orlando Torres", "Dr. Evanius Wiermann", "Dra. Aline Vieira"],
   },
   {
     id: "06",
@@ -164,6 +170,7 @@ export const sessoes: Sessao[] = [
     slug: "parc",
     revealDate: "2026-07-31T19:00:00-03:00",
     revealDateLabel: "31/07",
+    debatedores: ["Dr. Guilherme Cutait Cotti", "Dr. Fernando Chicoski"],
   },
 ];
 

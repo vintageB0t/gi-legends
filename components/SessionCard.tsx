@@ -45,6 +45,16 @@ export function SessionCard({ s }: { s: Sessao }) {
             <p className="mt-1 font-sans text-sm text-petroleo/60">
               {s.institution}, {s.city}
             </p>
+            {s.debatedores && (
+              <div className="mt-3">
+                <p className="font-sans text-xs tracking-[0.2em] text-teal">
+                  {s.debatedores.length === 1 ? "DEBATEDOR" : "DEBATEDORES"}
+                </p>
+                <p className="mt-1 font-sans text-sm text-petroleo/60">
+                  {s.debatedores.length > 0 ? s.debatedores.join(" · ") : "A serem anunciados"}
+                </p>
+              </div>
+            )}
           </>
         ) : (
           <h3 className="font-sanchez text-lg text-petroleo">
