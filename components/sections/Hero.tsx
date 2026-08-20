@@ -1,4 +1,5 @@
 import { hero, site } from "@/content/site";
+import { Even3Cta } from "../Even3Cta";
 
 export function Hero() {
   return (
@@ -29,14 +30,9 @@ export function Hero() {
           </p>
 
           <div className="mt-9 flex flex-col items-start gap-3">
-            <a
-              href={site.even3Url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl bg-teal px-8 py-4 font-sans text-base font-semibold text-petroleo shadow-lg shadow-black/20 transition-colors hover:bg-teal/90"
-            >
+            <Even3Cta className="rounded-xl bg-teal px-8 py-4 font-sans text-base font-semibold text-petroleo shadow-lg shadow-black/20 transition-colors hover:bg-teal/90">
               {hero.ctaPrimary}
-            </a>
+            </Even3Cta>
             <p className="font-sans text-sm text-menta/70">{hero.microcopy}</p>
           </div>
         </div>

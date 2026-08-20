@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { site } from "@/content/site";
+import { Even3Cta } from "../Even3Cta";
 
 export function StickyCta() {
   const [show, setShow] = useState(false);
@@ -23,14 +24,9 @@ export function StickyCta() {
         <span className="font-sans text-sm font-semibold">
           {site.periodoCurto} · Seis aulas ao vivo
         </span>
-        <a
-          href={site.even3Url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-lg bg-petroleo px-4 py-1.5 font-sans text-sm font-semibold text-menta"
-        >
+        <Even3Cta className="rounded-lg bg-petroleo px-4 py-1.5 font-sans text-sm font-semibold text-menta">
           Inscreva-se
-        </a>
+        </Even3Cta>
       </div>
     </div>
   );

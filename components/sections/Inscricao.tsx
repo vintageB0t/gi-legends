@@ -1,4 +1,5 @@
-import { inscricao, site } from "@/content/site";
+import { inscricao } from "@/content/site";
+import { Even3Cta } from "../Even3Cta";
 
 export function Inscricao() {
   return (
@@ -19,14 +20,9 @@ export function Inscricao() {
           {inscricao.paragraph}
         </p>
 
-        <a
-          href={site.even3Url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-flex rounded-xl bg-teal px-10 py-4 font-sans text-base font-semibold text-petroleo shadow-lg shadow-black/20 transition-colors hover:bg-teal/90"
-        >
+        <Even3Cta className="mt-8 inline-flex rounded-xl bg-teal px-10 py-4 font-sans text-base font-semibold text-petroleo shadow-lg shadow-black/20 transition-colors hover:bg-teal/90">
           {inscricao.cta}
-        </a>
+        </Even3Cta>
 
         <p className="mt-5 font-sans text-sm text-menta/70">{inscricao.microcopy}</p>
         <p className="mt-2 font-sans text-xs text-menta/50">

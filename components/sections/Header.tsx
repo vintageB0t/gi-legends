@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { Logo } from "../Logo";
-import { nav, site } from "@/content/site";
+import { Even3Cta } from "../Even3Cta";
+import { nav } from "@/content/site";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -41,25 +42,15 @@ export function Header() {
               {l.label}
             </a>
           ))}
-          <a
-            href={site.even3Url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg bg-teal px-5 py-2.5 font-sans text-sm font-semibold text-petroleo transition-colors hover:bg-teal/90"
-          >
+          <Even3Cta className="rounded-lg bg-teal px-5 py-2.5 font-sans text-sm font-semibold text-petroleo transition-colors hover:bg-teal/90">
             Inscreva-se
-          </a>
+          </Even3Cta>
         </nav>
 
         <div className="flex items-center gap-3 lg:hidden">
-          <a
-            href={site.even3Url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg bg-teal px-4 py-2 font-sans text-sm font-semibold text-petroleo"
-          >
+          <Even3Cta className="rounded-lg bg-teal px-4 py-2 font-sans text-sm font-semibold text-petroleo">
             Inscreva-se
-          </a>
+          </Even3Cta>
           <button
             type="button"
             aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
